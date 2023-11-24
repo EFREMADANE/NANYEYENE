@@ -1,0 +1,47 @@
+.nane-section{
+    background-image: url(./nafkote.jpg);
+    height: 900px;
+    width: 100%;
+    color:#0f0e0e;       
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+.nane-section > .header{
+    padding: 2em;
+    font-family: 'roboto slab', serif;
+    background-color: red;
+    width: 600px;
+    height: 50px;
+    border-radius: 2em;
+    text-align: justify;
+}
+.footer {
+    background-image: url(./green1.png);
+height: 200px;
+    font-size: 20px;
+    font-style: italic;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    box-shadow: black
+}
+.footer{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 5px solid transparent;
+    transition: 1.5s;
+}
+.footer :hover{
+  border-bottom: solid black;
+
+}
+.letter{
+    color: aliceblue;
+}
+
